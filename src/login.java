@@ -79,6 +79,8 @@ public class login extends javax.swing.JFrame {
         if(jTextField1.getText().equals("admin")&&jPasswordField2.getText().equals("admin"))
         {
             setVisible(false);
+            
+            
             new home().setVisible(true);
         }else{
             JOptionPane.showMessageDialog(null, "Incorrect Username Or Password");
